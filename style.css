@@ -72,8 +72,8 @@ li {
   color: transparent;
 }
 
-.circle-img {
-  border-radius: 50px;
+.rounded-img {
+  border-radius: 20%;
 }
 
 .light-shadow {
@@ -92,12 +92,15 @@ li {
 }
 
 @media (max-width: 540px) {
-  .container {
-    width: 300px;
+  body {
     font-size: 16px;
   }
+  
+  .container {
+    width: 250px;
+  }
 
-  .small-profile {
-
+  .smaller-img {
+    width: 120px;
   }
 }
